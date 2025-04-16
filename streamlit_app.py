@@ -35,7 +35,7 @@ sqft_lot15 = st.number_input("Avg lot size of the 15 closest homes in sqft")
 
 # This button triggers a request to FastAPI's /predict endpoint.
 if st.button("Predict House Price"):
-    input_data = [{
+    input_data = {
         "bedrooms": bedrooms,
         "bathrooms": bathrooms,
         "sqft_living": sqft_living,
@@ -54,7 +54,7 @@ if st.button("Predict House Price"):
         "long": long,
         "sqft_living15": sqft_living15,
         "sqft_lot15": sqft_lot15
-    }]
+    }
 
     response = requests.post(f"{FASTAPI_URL}/predict_single", json=input_data)
 
