@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import datetime
 import io
 from typing import List
@@ -20,7 +14,7 @@ app = FastAPI()
 mlflow.set_experiment("Housing Price Prediction")
 
 # Load the trained model from MLflow
-MODEL_URI = "models:/housing_price_prediction_models/1"  # Replace with your model name and version
+MODEL_URI = "models:/housing_price_prediction_models@champion"  # Replace with your model name and alias
 model = mlflow.pyfunc.load_model(MODEL_URI)
 
 
@@ -47,15 +41,17 @@ class HouseFeatures(BaseModel):
 
 @app.post("/predict_single")
 def predict_single(features: HouseFeatures):
+    """Endpoint for real-time predictions with a single input"""
+    
     # Convert input to DataFrame
-    input_df = pd.DataFrame([features.dict()])
+    df = pd.DataFrame([features.dict()])
 
     try:
 
         # Make a prediction
-        prediction = model.predict(input_df)
+        predicted_price = model.predict(df)
 
-        return {"predicted_price": prediction[0]}
+        return {"predicted_price": predicted_price[0]}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -87,7 +83,7 @@ async def predict_batch(file: UploadFile = File(...)):
             "lat",
             "long",
             "sqft_living15",
-            "sqft_lot15",
+            "sqft_lot15"
         ]
         if not all(feature in df.columns for feature in required_features):
             missing_cols = set(required_features) - set(df.columns)
@@ -96,14 +92,10 @@ async def predict_batch(file: UploadFile = File(...)):
             )
 
         # Make batch predictions
-        predictions = model.predict(df)
-        return {"predictions": predictions.tolist()}
+        predicted_price = model.predict(df)
+        # return {"predictions": predicted_price}
+        return {"predictions": predicted_price.tolist()}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-
-# In[ ]:
-
-
 
 
