@@ -2,7 +2,7 @@
 Machine Learning model for predicting real estate housing prices
 
 ## Overview
-This project involves developing a Machine Learning model to predict real estate housing prices using publicly available datasets. The model primarily utilizes a Random Forest Regression algorithm to input different indpenednt variables to help stakeholders estimatee the price of the proprety.
+This project involves developing a machine learning model to predict real estate housing prices using publicly available datasets. The model primarily utilizes a random forest regression algorithm to input different indpenednt variables to help stakeholders estimatee the price of the proprety.
 
 ## Problem Statement
 Traditional methods for predicting real estate sale prices have become outdated and insufficient, often neglecting many important factors. Our project aims to improve prediction accuracy and enable stakeholders to make better-informed decisions.
