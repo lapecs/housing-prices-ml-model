@@ -1,14 +1,14 @@
 # housing-prices-ml-model
-Machine Learning model for predicting real estate housing prices
+A machine learning-based system to predict residential property prices using publicly available housing data, primarily focused on the Seattle market.
 
 ## Overview
-This project involves developing a machine learning model to predict real estate housing prices using publicly available datasets. The model primarily utilizes a random forest regression algorithm to input different indpenednt variables to help stakeholders estimatee the price of the proprety.
+This project involves developing a machine learning model to predict real estate housing prices using publicly available datasets. The model primarily utilizes a random forest regression algorithm to input different independent variables to help stakeholders estimate the price of the proprety.
 
 ## Problem Statement
-Traditional methods for predicting real estate sale prices have become outdated and insufficient, often neglecting many important factors. Our project aims to improve prediction accuracy and enable stakeholders to make better-informed decisions.
+Traditional methods for predicting real estate sale prices have become outdated and insufficient, often neglecting many important factors and leading to inconsistent or inaccurate pricing. Our project aims to improve that prediction accuracy and enable stakeholders to make better-informed decisions.
 
 ## Purpose
-The purpose of this model is to utalize machine learning techniques to identify patterns in property market data and produce more accurate predictions than traditional methods. The model can be expanded and continuously improved by incorporating new datasets and additional variables, enhancing its predictive accuracy of the price of the property over time. 
+The purpose of this model is to utilize machine learning techniques to identify patterns in property market data and produce more accurate predictions than traditional methods. The model can be expanded and continuously improved by incorporating new datasets and additional variables, enhancing its predictive accuracy of the price of the property over time. 
 
 ## Data Sources
 The dataset includes publicly available Seattle real estate data:
