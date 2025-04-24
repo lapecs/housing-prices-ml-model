@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/0ad2c52232c1405a85960c04adda1fef/artifacts
+end_time: 1745505451692
+entry_point_name: ''
+experiment_id: '766002194513770109'
+lifecycle_stage: active
+run_id: 0ad2c52232c1405a85960c04adda1fef
+run_name: Neural Network with Zipcode Embedding
+run_uuid: 0ad2c52232c1405a85960c04adda1fef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745505432365
+status: 3
+tags: []
+user_id: lapec

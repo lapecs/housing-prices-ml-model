@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/a68cc1078fa74e3bad7b2e90ee1dd2f9/artifacts
+deleted_time: 1745508332843
+end_time: 1745507975807
+entry_point_name: ''
+experiment_id: '766002194513770109'
+lifecycle_stage: deleted
+run_id: a68cc1078fa74e3bad7b2e90ee1dd2f9
+run_name: Random Forest Hyperparameter Tuning
+run_uuid: a68cc1078fa74e3bad7b2e90ee1dd2f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745507975564
+status: 4
+tags: []
+user_id: lapec

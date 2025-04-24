@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/86fd243d607b4452a66c3ab67f2116db/artifacts
+end_time: 1745509952436
+entry_point_name: ''
+experiment_id: '766002194513770109'
+lifecycle_stage: active
+run_id: 86fd243d607b4452a66c3ab67f2116db
+run_name: Random Forest
+run_uuid: 86fd243d607b4452a66c3ab67f2116db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745509942351
+status: 3
+tags: []
+user_id: lapec

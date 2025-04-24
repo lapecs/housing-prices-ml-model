@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1745508413215
+current_stage: None
+description: ''
+last_updated_timestamp: 1745508413215
+name: housing_price_prediction
+run_id: 1563c2e0b5bf4ad581c8fd0df4953554
+run_link: ''
+source: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/1563c2e0b5bf4ad581c8fd0df4953554/artifacts/artifacts
+status: READY
+status_message: null
+storage_location: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/1563c2e0b5bf4ad581c8fd0df4953554/artifacts/artifacts
+user_id: null
+version: 4

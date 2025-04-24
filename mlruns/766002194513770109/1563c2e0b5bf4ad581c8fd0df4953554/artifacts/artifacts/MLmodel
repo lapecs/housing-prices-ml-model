@@ -1,0 +1,43 @@
+artifact_path: artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.21.3
+model_size_bytes: 115803750
+model_uuid: 2a5023a97e0644dc9475150e3caf12cb
+prompts: null
+run_id: 1563c2e0b5bf4ad581c8fd0df4953554
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "bedrooms", "required": true}, {"type": "double",
+    "name": "bathrooms", "required": true}, {"type": "double", "name": "sqft_living",
+    "required": true}, {"type": "double", "name": "sqft_lot", "required": true}, {"type":
+    "double", "name": "sqft_above", "required": true}, {"type": "double", "name":
+    "sqft_basement", "required": true}, {"type": "double", "name": "yr_built", "required":
+    true}, {"type": "double", "name": "yr_renovated", "required": true}, {"type":
+    "double", "name": "lat", "required": true}, {"type": "double", "name": "long",
+    "required": true}, {"type": "double", "name": "sqft_living15", "required": true},
+    {"type": "double", "name": "sqft_lot15", "required": true}, {"type": "long", "name":
+    "condition", "required": true}, {"type": "long", "name": "grade", "required":
+    true}, {"type": "long", "name": "view", "required": true}, {"type": "long", "name":
+    "floors", "required": true}, {"type": "long", "name": "zipcode", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-04-24 15:26:07.438850'

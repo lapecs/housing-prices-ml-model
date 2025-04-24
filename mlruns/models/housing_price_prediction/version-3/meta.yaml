@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1745506439341
+current_stage: None
+description: XGBoost model
+last_updated_timestamp: 1745506580028
+name: housing_price_prediction
+run_id: 736a06f3c82749308a3c1d053a65047a
+run_link: ''
+source: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/736a06f3c82749308a3c1d053a65047a/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/736a06f3c82749308a3c1d053a65047a/artifacts/model
+user_id: null
+version: 3

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lapec/housing-prices-ml-model/mlruns/766002194513770109/736a06f3c82749308a3c1d053a65047a/artifacts
+end_time: 1745505287138
+entry_point_name: ''
+experiment_id: '766002194513770109'
+lifecycle_stage: active
+run_id: 736a06f3c82749308a3c1d053a65047a
+run_name: XGBoost
+run_uuid: 736a06f3c82749308a3c1d053a65047a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745505275650
+status: 3
+tags: []
+user_id: lapec

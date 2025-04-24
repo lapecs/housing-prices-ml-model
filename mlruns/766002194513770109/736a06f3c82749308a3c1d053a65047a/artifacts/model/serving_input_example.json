@@ -1,0 +1,46 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "bedrooms",
+      "bathrooms",
+      "sqft_living",
+      "sqft_lot",
+      "floors",
+      "waterfront",
+      "view",
+      "condition",
+      "grade",
+      "sqft_above",
+      "sqft_basement",
+      "yr_built",
+      "yr_renovated",
+      "zipcode",
+      "lat",
+      "long",
+      "sqft_living15",
+      "sqft_lot15"
+    ],
+    "data": [
+      [
+        4.0,
+        2.25,
+        2070.0,
+        8893.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        8.0,
+        2070.0,
+        0.0,
+        1986.0,
+        0.0,
+        98058.0,
+        47.4388,
+        -122.162,
+        2390.0,
+        7700.0
+      ]
+    ]
+  }
+}

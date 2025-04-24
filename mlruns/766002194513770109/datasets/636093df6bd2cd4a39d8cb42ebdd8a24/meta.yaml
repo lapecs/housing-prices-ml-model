@@ -1,0 +1,20 @@
+digest: 75f35c07
+name: dataset
+profile: '{"num_rows": 17290, "num_elements": 328510}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "bedrooms", "required": true},
+  {"type": "double", "name": "bathrooms", "required": true}, {"type": "double", "name":
+  "sqft_living", "required": true}, {"type": "double", "name": "sqft_lot", "required":
+  true}, {"type": "double", "name": "floors", "required": true}, {"type": "double",
+  "name": "waterfront", "required": true}, {"type": "double", "name": "view", "required":
+  true}, {"type": "double", "name": "condition", "required": true}, {"type": "double",
+  "name": "grade", "required": true}, {"type": "double", "name": "sqft_above", "required":
+  true}, {"type": "double", "name": "sqft_basement", "required": true}, {"type": "double",
+  "name": "yr_built", "required": true}, {"type": "double", "name": "yr_renovated",
+  "required": true}, {"type": "double", "name": "zipcode", "required": true}, {"type":
+  "double", "name": "lat", "required": true}, {"type": "double", "name": "long", "required":
+  true}, {"type": "double", "name": "sqft_living15", "required": true}, {"type": "double",
+  "name": "sqft_lot15", "required": true}, {"type": "double", "name": "price", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "lapec", "mlflow.source.name": "C:\\Users\\lapec\\anaconda3\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

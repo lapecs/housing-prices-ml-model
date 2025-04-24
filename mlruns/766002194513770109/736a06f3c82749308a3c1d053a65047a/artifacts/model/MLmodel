@@ -1,0 +1,44 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.7
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.1
+is_signature_from_type_hint: false
+mlflow_version: 2.21.3
+model_size_bytes: 118006
+model_uuid: 3cb4c2cebd414513a61d326219e044c2
+prompts: null
+run_id: 736a06f3c82749308a3c1d053a65047a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "bedrooms", "required": true}, {"type": "double",
+    "name": "bathrooms", "required": true}, {"type": "double", "name": "sqft_living",
+    "required": true}, {"type": "double", "name": "sqft_lot", "required": true}, {"type":
+    "double", "name": "floors", "required": true}, {"type": "double", "name": "waterfront",
+    "required": true}, {"type": "double", "name": "view", "required": true}, {"type":
+    "double", "name": "condition", "required": true}, {"type": "double", "name": "grade",
+    "required": true}, {"type": "double", "name": "sqft_above", "required": true},
+    {"type": "double", "name": "sqft_basement", "required": true}, {"type": "double",
+    "name": "yr_built", "required": true}, {"type": "double", "name": "yr_renovated",
+    "required": true}, {"type": "double", "name": "zipcode", "required": true}, {"type":
+    "double", "name": "lat", "required": true}, {"type": "double", "name": "long",
+    "required": true}, {"type": "double", "name": "sqft_living15", "required": true},
+    {"type": "double", "name": "sqft_lot15", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-04-24 14:34:36.101083'
